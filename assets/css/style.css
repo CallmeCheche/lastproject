@@ -1,7 +1,89 @@
-.navbar-brand img{
-    margin-left: -40px;
+
+
+.image-container {
+    position: relative;
 }
-.image01{
-    font-weight: 200;
-    
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff; /* Green color */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+.rounded-box {
+    border-radius: 20px;
+    overflow: hidden;
+}
+.small-icons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 60px;
+}
+.custom-block {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+.custom-block img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.custom-block .text-section {
+    padding-left: 20px;
+}
+.custom-block .text-section h2 {
+    color: #28a745;
+}
+.footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+}
+.footer a {
+    color: white;
+}
+.footer a:hover {
+    color: #00FF00;
+}
+.footer .social-media a {
+    color: green;
+    font-size: 24px;
+    margin: 0 10px;
+}
+.footer .social-media a:hover {
+    color: white;
+}
+.footer .logo {
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+}
+.footer .section-title {
+    color: #00FF00;
+    font-weight: bold;
+}
+.custom-card {
+    background-color: #d4f4c2; /* Light green background */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+.custom-card img {
+    width: 80px; /* Adjust image size */
+    border-radius: 50%; /* Make it circular */
+}
+.custom-card h5 {
+    font-weight: bold;
+}
+.custom-card .highlight {
+    color: red; /* Highlighted text */
+    font-weight: bold;
 }
